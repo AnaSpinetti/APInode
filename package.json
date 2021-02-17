@@ -2,11 +2,22 @@
   "name": "api_letras",
   "version": "1.0.0",
   "description": "Exemplo de API em node, utilizando músicas compostas por mim",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
+    "start":"nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["metal", "music", "songwriter"],
+  "keywords": [
+    "metal",
+    "music",
+    "songwriter"
+  ],
   "author": "Ana Spinetti",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
